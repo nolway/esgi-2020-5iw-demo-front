@@ -5,11 +5,11 @@
         "director": "^1.2.0",
         "todomvc-app-css": "^2.0.0",
         "todomvc-common": "^1.0.1",
-        "vue": "^2.1.8"
+        "vue": "^2.1.8",
+        "vue-template-compiler": "^2.6.12"
     },
     "scripts": {
-        "build": "npx vue-cli-service build js/app.js",
-        "predeploy": "npm run build",
+        "predeploy": "npm install",
         "deploy": "gh-pages -d dist"
     },
     "devDependencies": {
